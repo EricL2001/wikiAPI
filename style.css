@@ -1,5 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans|Russo+One');
+
+body {
+  background-color: #595646;
+  font-family: 'Noto Sans', sans-serif;
+}
+
 input {
-  width: 400px;
-  height: 20px;
+  width: 500px;
+  height: 28px;
   border-radius: 5px;
+}
+
+.home {
+  background-color: #F2C879;
+  padding-bottom: 40px;
+  border-radius: 5px;
+  border: 3px solid white;
+  margin: 25px auto 0px auto;
+  text-align: center; 
+}
+
+.title {
+  color: #D92929;
+  font-size: 48px;
+  letter-spacing: 1.5px;
+  font-family: 'Russo One', sans-serif;
+}
+
+.title2 {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  background-color: #F2C879;
+  border: 3px solid white;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  margin-right: 40px;
+  padding-top: 15px;
+  padding-left: 10px;
+}
+
+a {
+  color: #26786E;
+  font-weight: bold;
+}
+
+.btn-search {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 14px;
+  border-radius: 5px;
+  margin-right: 20px;
+  padding: 5px 18px;
+  background-color: #26786E;
+  color: white;
+  cursor: pointer;
+}
+
+.rand-search {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 14px;
+  border-radius: 5px;
+  margin-left: 20px;
+  padding: 5px 18px;
+  background-color: #26786E;
+  color: white;
+  cursor: pointer;
 }

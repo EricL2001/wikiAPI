@@ -15,10 +15,17 @@ $(document).ready(function() {
           var description = val.extract;
           var id = val.pageid;
 
-          $("ul").append('<li><a target="blank" href="https://en.wikipedia.org/wiki?curid=' + id +'" <h1 class="title">' + title + '</h1></a><p class="descrip">' + description +'</p></li>');
+          $("ul").append('<li><a target="blank" href="https://en.wikipedia.org/wiki?curid=' + id +'" <h1 class="title2">' + title + '</h1></a><p class="descrip">' + description +'</p></li>');
 
         }); //for each loop
       } //success function
     }); //ajax call
   }); // click function
+
+  // random search function
+  $('#rand-search').click(function(){
+    var newWindow = window.open('https://en.wikipedia.org/wiki/Special:Random', '_blank');
+    newWindow.location;
+  });
+
 }); // document.ready function
